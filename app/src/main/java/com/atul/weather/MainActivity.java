@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else{
                     cityName = cityEditText.getText().toString();
-                    url = "http://api.openweathermap.org/data/2.5/weather?q="+ cityName +"&appid=b8fe91af6b9fae85a3bed05861dd4d47&units=metric";
+                    url = "http://api.openweathermap.org/data/2.5/weather?q="+ cityName +"&appid=USE_YOUR_API_KEY&units=metric";
 
                     RequestQueue requestQueue = Volley.newRequestQueue(MainActivity.this);
 
